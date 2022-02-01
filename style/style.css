@@ -1,0 +1,180 @@
+/* стартовые кнопки */
+.custom-img {
+    max-width: 75%;
+    max-height: 75%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.dog {
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: rgb(65, 42, 165);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.cat {
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 12px;
+    border-radius: 4px;
+    background: rgb(57, 243, 0);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.dogBlock,
+.catBlock,
+.buttons,
+.status {
+    display: none;
+}
+
+/* кнопки лайк/диз/инф */
+
+.like-dog,
+.like-cat {
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: rgb(57, 243, 0);
+
+    color: #fff;
+    border-radius: 4px;
+}
+
+.dislike-dog,
+.dislike-cat {
+    font-size: large;
+    margin-top: 10px;
+    border-radius: 4px;
+    background: rgb(243, 8, 0);
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+.EndButtonOfDog,
+.EndButtonOfCat {
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: rgb(73, 0, 243);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.back {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background: rgb(93, 55, 182);
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+/* гриды */
+.grid {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.2fr;
+}
+
+.block {
+    display: block;
+}
+
+.like {
+    background-color: rgb(76, 184, 66);
+    max-width: 100%;
+    border: 1.5px solid black;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.dislike {
+    background-color: rgb(136, 25, 6);
+
+    max-width: 100%;
+    border: 1.5px solid black;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.like img,
+.dislike img {
+    width: 100%;
+    padding: 5px;
+
+}
+
+.like p,
+.dislike p {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* .skeleton-box {
+    max-width: 75%;
+    max-height: 75%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+
+    display: inline-block;
+
+
+    overflow: hidden;
+    background-color: #DDDBDD;
+}
+
+.skeleton-box::after {
+    max-width: 75%;
+    max-height: 75%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+
+    background-image: linear-gradient(90deg, rgba(#fff, 0) 0, rgba(#fff, 0.2) 20%, rgba(#fff, 0.5) 60%, rgba(#fff, 0));
+    animation: shimmer 2s infinite;
+    content: '';
+    -webkit-animation: shimmer 5s infinite;
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+.blog-post__headline {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
+
+.blog-post__meta {
+    font-size: 0.85em;
+    color: #6b6b6b;
+} */
